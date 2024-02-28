@@ -4,7 +4,7 @@ import { auth, googleProvider } from "../config/firebase";
 import {
   createUserWithEmailAndPassword,
   signInWithPopup,
-  /* signOut, */
+  
 } from "firebase/auth";
 import { Input, FormLabel, FormControl, Button, Box, Text, useToast} from "@chakra-ui/react";
 
