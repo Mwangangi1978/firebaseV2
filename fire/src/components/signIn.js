@@ -76,7 +76,7 @@ export default function Login() {
     return(
         <> 
             <Box
-                ml={"300px"}
+                
                 backgroundSize="cover"
                 backgroundPosition="center"
                 height="100vh"
@@ -90,7 +90,7 @@ export default function Login() {
                     borderRadius="md"
                     boxShadow="md"
                     textAlign="center"
-                    width={'50vw'}
+                    width={'100vw'}
                     
                 >
                     
@@ -130,7 +130,7 @@ export default function Login() {
                         <Button  onClick={signInWithGoogle}  colorScheme="teal">
                             <Box display= "flex" alignSelf={"center"} >
                                 <img src="/google.svg" alt="Google Logo" width={15} height={15}/>
-                                <Text ml={2}>Sign in with Google</Text>
+                                <Text ml={2}>Continue with Google</Text>
                             </Box>
                         </Button>
                     </>

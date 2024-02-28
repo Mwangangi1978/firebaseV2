@@ -8,16 +8,17 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAXvmx-KF0tdX9kGQqbrGz41AnSETuO5wo",
-  authDomain: "fir-v2-ce54f.firebaseapp.com",
-  projectId: "fir-v2-ce54f",
-  storageBucket: "fir-v2-ce54f.appspot.com",
-  messagingSenderId: "828031274623",
-  appId: "1:828031274623:web:412d9d8e3911fb9381394a",
-  measurementId: "G-BDWL1QH59R"
-};
+    apiKey: "AIzaSyD3lCdhFm5E92f_knxjYFduE-Ok9K3A2ZA",
+    authDomain: "fir-988b5.firebaseapp.com",
+    projectId: "fir-988b5",
+    storageBucket: "fir-988b5.appspot.com",
+    messagingSenderId: "890326384275",
+    appId: "1:890326384275:web:153384e48318db19689766",
+    measurementId: "G-7DPFY2LC9R"
+  }
 
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
